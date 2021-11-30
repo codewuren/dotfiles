@@ -1,7 +1,4 @@
 #/bin/bash
-
-if has polybar; then
-	killall polybar
-else 
-	polybar main &
-fi
+killall polybar
+sleep 1
+polybar main &
