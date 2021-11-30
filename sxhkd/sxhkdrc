@@ -29,7 +29,7 @@ super + {_,shift + }{Left,Down,Up,Right}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 #Preselect the direction
-super + ctrl + {Left,Down,Up,Down}
+super + ctrl + {Left,Down,Up,Right}
 	bspc node -p {west,south,north,east}
 #Preselect the ratio
 super + ctrl + {1-9}
