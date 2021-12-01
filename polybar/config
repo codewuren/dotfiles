@@ -47,6 +47,7 @@ module-margin-right = 1
 
 font-0 = "Iosevka Nerd Font:style=Bold:size=13;3"
 font-1 = "JetBrains Mono:pixelsize=13;3"
+font-2 = "WenQuanYi Zen Hei Mono:pixelsize=13;3"
 
 modules-left = bspwm
 modules-center = windowtitle 
@@ -103,10 +104,10 @@ format = <label>
 format-background = ${colors.cyan}
 format-foreground = ${colors.background}
 format-padding = 4
-label = " %title%"
+label = "  %title%"
 label-maxlen = 250
-label-empty = " CodeWuRen"
-label-empty-font = 3
+label-empty = "  CodeWuRen"
+label-empty-font = 1
 label-separator = " "
 label-empty-foreground = ${colors.background}
 
