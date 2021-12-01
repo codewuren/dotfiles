@@ -25,3 +25,9 @@ feh --bg-fill --randomize ~/Pictures/Wallpapers/* &
 xsetroot -cursor_name left_ptr &
 ~/.config/polybar/launch.sh &
 sh ~/scripts/autostart.sh &
+
+##########
+# BSPWM RULES
+##########
+
+bspc rule -a emacs state=tiled
