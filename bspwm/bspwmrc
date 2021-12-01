@@ -19,15 +19,14 @@ dunst -conf ~/.config/dunst/dunstrc &
 pgrep -x sxhkd > /dev/null || sxhkd &
 picom &
 nm-applet &
-sh ~/.config/polybar/launch.sh &
 fcitx5 &
 feh --bg-fill --randomize ~/Pictures/Wallpapers/* &
 xsetroot -cursor_name left_ptr &
-~/.config/polybar/launch.sh &
+sh ~/.config/polybar/launch.sh &
 sh ~/scripts/autostart.sh &
 
 ##########
 # BSPWM RULES
 ##########
 
-bspc rule -a emacs state=tiled
+bspc rule -a Emacs state=tiled
