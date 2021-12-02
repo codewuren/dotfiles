@@ -3,6 +3,9 @@
 # Workspaces
 bspc monitor -d 1 2 3 4 5 6 7 8 9
 
+bspc config single_monocle true
+bspc config gapless_monocle true
+
 export _JAVA_AWT_WM_NONREPARENTING=1
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
