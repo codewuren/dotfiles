@@ -7,9 +7,9 @@ super + d
 #Emacs
 super + e
 	emacs
-#Firefox
-super + f
-	firefox
+#Google Chrome
+super + g
+	google-chrome-stable
 #Nautilus
 super + p
 	pcmanfm
