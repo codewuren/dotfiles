@@ -7,6 +7,9 @@ super + r
 #Trayer
 super + {_,shift + }t
 	{trayer, killall trayer}
+#Screenkey
+super + {_,shift + }s
+	{screenkey, killall screenkey}
 #Emacs
 super + e
 	emacs
