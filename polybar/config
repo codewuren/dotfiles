@@ -65,7 +65,7 @@ cursor-scroll = pointer
 ;   center
 ;   right
 ;   none
-tray-position = right
+tray-position = none
 
 ; If true, the bar will not shift its
 ; contents when the tray changes

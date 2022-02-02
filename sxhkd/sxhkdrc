@@ -2,8 +2,11 @@
 super + Return
 	alacritty
 #Program launcher
-super + d
+super + r
 	rofi -show run
+#Trayer
+super + {_,shift + }t
+	{trayer, killall trayer}
 #Emacs
 super + e
 	emacs
