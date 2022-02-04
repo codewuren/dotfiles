@@ -4,9 +4,9 @@ So here are my configuranions.
 
 # Screenshot
 
-![1]()
+![1](https://raw.githubusercontent.com/codewuren/dotfiles/master/screenshot.png)
 
-![2]()
+![2](https://raw.githubusercontent.com/codewuren/dotfiles/master/neofetchinfo.png)
 
 # Introduce my window manager
 
