@@ -1,0 +1,11 @@
+*
+!/bspwm/
+!/polybar/
+!/alacritty/
+!/dunst/
+!/.gitignore
+!/neofetch/
+!/sxhkd/
+!/*.png
+!/*.md
+!/picom.conf
