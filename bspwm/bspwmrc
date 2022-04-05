@@ -24,6 +24,7 @@ fcitx5 &
 feh --bg-fill --randomize ~/Pictures/Wallpapers/* &
 xsetroot -cursor_name left_ptr &
 sh ~/.config/polybar/launch.sh &
+pgrep -x sxhkd > /dev/null || sxhkd -m 1&
 sh ~/scripts/autostart.sh &
 
 ##### BSPWM COLORS #####
