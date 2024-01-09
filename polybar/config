@@ -1,0 +1,247 @@
+; ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗ 
+; ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+; ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+; ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+; ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+; ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+                                    
+[colors]
+background = #30393d
+background-alt = #d1c4e9
+foreground = #e5e9f0
+foreground-alt = #282e3a
+primary = #ffb52a
+secondary = #e60053
+alert = #B48EAD
+
+cyan = #88C0D0
+aqua = #8FBCBB
+red = #BF616A
+yellow = #EBCB8B
+green = #A3BE8C
+orange = #D08770
+magenta = #BF616A
+white = #D8DEE9
+pink = #c394b4
+blue = #81a1c1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[bar/main]
+width = 100%
+height = 25
+radius = 0.0
+fixed-center = true
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+padding-left = 0
+padding-right = 0
+
+border-size = 5
+border-color = ${colors.background} 
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = "Iosevka Nerd Font:style=Bold:size=15;3"
+font-1 = "JetBrains Mono:pixelsize=15;3"
+font-2 = "WenQuanYi Zen Hei Mono:style=Bold:pixelsize=15;3"
+
+modules-left = bspwm
+modules-center = windowtitle 
+modules-right = memory volume date
+
+cursor-click = pointer
+cursor-scroll = pointer
+
+; Position of the system tray window
+; If empty or undefined, tray support will be disabled
+; NOTE: A center aligned tray will cover center aligned modules
+;
+; Available positions:
+;   left
+;   center
+;   right
+;   none
+tray-position = right 
+
+; If true, the bar will not shift its
+; contents when the tray changes
+tray-detached = false
+
+; Tray icon max size
+tray-maxsize = 20
+
+; DEPRECATED! Since 3.3.0 the tray always uses pseudo-transparency
+; Enable pseudo transparency
+; Will automatically be enabled if a fully transparent
+; background color is defined using `tray-background`
+tray-transparent = false
+
+; Background color for the tray container 
+; ARGB color (e.g. #f00, #ff992a, #ddff1023)
+; By default the tray container will use the bar
+; background color.
+tray-background = ${root.background}
+
+; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)
+tray-offset-x = 0
+tray-offset-y = 0
+
+; Pad the sides of each tray icon
+tray-padding = 0
+
+; Scale factor for tray clients
+tray-scale = 1.0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[module/windowtitle]
+type = internal/xwindow
+format = <label>
+format-background = ${colors.cyan}
+format-foreground = ${colors.background}
+format-padding = 4
+label = "  %title%"
+label-maxlen = 250
+label-empty = "  CodeWuRen"
+label-empty-font = 1
+label-separator = " "
+label-empty-foreground = ${colors.background}
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %index%
+label-focused-background = ${colors.pink}
+label-focused-underline = ${colors.primary}
+label-focused-foreground = ${colors.foreground-alt}
+label-focused-padding = 1
+
+label-occupied = %index%
+label-occupied-background = ${colors.background}
+label-occupied-foreground = #e5e9f0
+label-occupied-padding = 1
+
+label-urgent = %index%
+label-urgent-background = ${colors.red}
+label-urgent-foreground = #e5e9f0
+label-urgent-padding = 1
+
+label-empty = %index%
+label-empty-background = ${colors.background}
+label-empty-foreground = #e5e9f0
+label-empty-padding = 1
+
+label-separator = 
+; Separator in between workspaces
+; label-separator = |
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+label-mode-padding = 2
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %index%
+label-unfocused-padding = 2
+
+; visible = Active workspace on unfocused monitor
+label-visible = %index%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %index%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+; Separator in between workspaces
+label-separator = 
+
+
+[module/volume]
+type = internal/pulseaudio
+
+format-volume = "Vol <label-volume>"
+format-volume-background = ${colors.cyan}
+format-volume-foreground = ${colors.background}
+format-volume-padding = 1
+
+format-muted = <label-muted>
+label-muted =" Muted"
+format-muted-background = ${colors.cyan}
+format-muted-foreground = ${colors.background}
+format-muted-padding = 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[module/memory]
+type = internal/memory
+interval = 3
+
+format = <label>
+
+format-prefix = ﬙
+format-prefix-font = 4
+format-prefix-foreground = #ffffff
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+
+label = " %mb_used%"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[module/date]
+type = internal/date
+interval = 1
+
+date = 
+date-alt = "%A, %b %d -"
+
+time = " %H:%M:%S "
+time-alt = "%H:%M:%S "
+
+format-prefix-padding = 2
+format-prefix-font = 2
+format-prefix-foreground = #ffffff
+format-background = ${colors.cyan}
+format-foreground = ${colors.background}
+
+label = %date% %time%
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
+;pseudo-transparency = false
+
+[global/wm]
+;margin-top = 5
+;margin-bottom = 5
+
+; vim:ft=dosini

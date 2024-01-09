@@ -1,0 +1,9 @@
+2024/01/10-01:38:52.574 4 Reusing MANIFEST /home/wuren/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/10-01:38:52.574 4 Recovering log #3
+2024/01/10-01:38:52.574 4 Reusing old log /home/wuren/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
+2024/01/10-01:40:05.225 6 Level-0 table #5: started
+2024/01/10-01:40:05.229 6 Level-0 table #5: 21323 bytes OK
+2024/01/10-01:40:05.234 6 Delete type=0 #3
+2024/01/10-01:40:06.149 4 Level-0 table #7: started
+2024/01/10-01:40:06.165 4 Level-0 table #7: 179633 bytes OK
+2024/01/10-01:40:06.168 4 Delete type=0 #4

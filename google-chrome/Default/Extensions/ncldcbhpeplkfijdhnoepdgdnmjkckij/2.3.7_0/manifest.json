@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": "img/16ico.png",
+      "default_popup": "main.html",
+      "default_title": "__MSG_name__"
+   },
+   "author": "mzkeapp@gmail.com",
+   "background": {
+      "service_worker": "sw.js"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "zh_CN",
+   "description": "__MSG_description__",
+   "homepage_url": "http://iguge.net",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "img/128ico.png",
+      "16": "img/16ico.png",
+      "48": "img/48ico.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzWspDaxLWIL2DkxauTwf+7plXSXhzHLWj4A0xtsYgwsnlvpFOOb5kpuWxNo+EcHEzZUf4h6ETGqsMJJz7Qz5KRcQ2OWqaMDRWSBC48KisCECxSBC9fjA2C+SevKEAvapVqbEu8ArJiOG30JCRWzST2xGilXuHxAqvfoFC4E065JcRZAbiibBkaXLarQ4VBJ0I9+uSZ5GnXb9gYi53Ybh8sdjhZA3IQIBE82rEor1QElgcuSBYKWDV9tWcs4sbYGQQZ6mXs91pydO0AeRiEVX3FrwOiCwTv5EqLLlklJe7tK+D2JO7ngbdHx+hjhGMc8kLHoBeIueaeIixoIkr9FbBQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "108.0.0",
+   "name": "__MSG_name__",
+   "permissions": [ "notifications", "storage", "alarms", "management", "proxy", "webRequest", "webRequestAuthProvider", "idle" ],
+   "short_name": "__MSG_shortname__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.7",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "matches": [ "*://*/*" ],
+      "resources": [ "img/128ico.png" ]
+   } ]
+}

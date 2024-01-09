@@ -1,0 +1,451 @@
+{
+   "autoSignIn_description": {
+      "message": "Receives a notification when check-in successes"
+   },
+   "autoSignIn_name": {
+      "message": "Auto Daily Sign-In"
+   },
+   "autoSignIn_success": {
+      "message": "Sign in successfully"
+   },
+   "autoTakeVipPrivilege_name": {
+      "message": "Take vip privilege automatically"
+   },
+   "autoTakeVipPrivilege_notification_successfully": {
+      "message": "Received VIP privilege successfully"
+   },
+   "autoTakeVipPrivilege_notifications_description": {
+      "message": "Receives a notification when received successes."
+   },
+   "bilibiliMessage_at": {
+      "message": "@ 我的"
+   },
+   "bilibiliMessage_like": {
+      "message": "点赞"
+   },
+   "bilibiliMessage_reply": {
+      "message": "回复"
+   },
+   "bilibiliMessage_sys_msg": {
+      "message": "系统消息"
+   },
+   "bilibiliMessage_unread": {
+      "message": "未读消息"
+   },
+   "chatFilter_UI_listName": {
+      "message": "Filter Items"
+   },
+   "chatFilter_description": {
+      "message": "过滤直播区聊天区域的显示内容，也包括一些播放器上的广告推送"
+   },
+   "chatFilter_name": {
+      "message": "去污粉"
+   },
+   "chatFilter_options_achievement": {
+      "message": "成就头衔"
+   },
+   "chatFilter_options_announcement": {
+      "message": "系统公告"
+   },
+   "chatFilter_options_chat": {
+      "message": "聊天内容"
+   },
+   "chatFilter_options_combo": {
+      "message": "连击弹幕"
+   },
+   "chatFilter_options_emoji": {
+      "message": "粉丝表情"
+   },
+   "chatFilter_options_enterMsg": {
+      "message": "进场信息"
+   },
+   "chatFilter_options_flowEmoji": {
+      "message": "(漂浮)表情弹幕"
+   },
+   "chatFilter_options_gift": {
+      "message": "礼物信息"
+   },
+   "chatFilter_options_level": {
+      "message": "用户等级"
+   },
+   "chatFilter_options_medal": {
+      "message": "粉丝勋章"
+   },
+   "chatFilter_options_n2233": {
+      "message": "2233娘"
+   },
+   "chatFilter_options_pk": {
+      "message": "大乱斗"
+   },
+   "chatFilter_options_small": {
+      "message": "小型标志"
+   },
+   "chatFilter_subPage_description": {
+      "message": "请注意b站自带的\"关闭礼物特效\"功能"
+   },
+   "chatFilter_subPage_title": {
+      "message": "开启聊天过滤"
+   },
+   "config_checking": {
+      "message": "Check for update"
+   },
+   "config_commonNotify": {
+      "message": "If your are encountering issues, please try removing and then adding this extension again."
+   },
+   "config_main_navigation_article": {
+      "message": "Article"
+   },
+   "config_main_navigation_customStyle": {
+      "message": "Custom Style"
+   },
+   "config_main_navigation_download": {
+      "message": "download"
+   },
+   "config_main_navigation_global": {
+      "message": "Global"
+   },
+   "config_main_navigation_live": {
+      "message": "Live Area"
+   },
+   "config_main_navigation_notification": {
+      "message": "Notification"
+   },
+   "config_main_navigation_order": {
+      "message": "Order & Redeem List"
+   },
+   "config_main_navigation_other": {
+      "message": "Other"
+   },
+   "config_main_navigation_overview": {
+      "message": "Overview"
+   },
+   "config_main_navigation_popup": {
+      "message": "POPUP"
+   },
+   "config_main_navigation_shortcuts": {
+      "message": "Shortcuts"
+   },
+   "config_main_navigation_specialAttention": {
+      "message": "Special Attention"
+   },
+   "config_main_navigation_video": {
+      "message": "Main Site"
+   },
+   "config_settingKinds_about": {
+      "message": "About"
+   },
+   "config_settingKinds_cv": {
+      "message": "Article Page"
+   },
+   "config_settingKinds_favlist": {
+      "message": "Favourite Video Page"
+   },
+   "config_settingKinds_live": {
+      "message": "Live"
+   },
+   "config_settingKinds_main": {
+      "message": "Video"
+   },
+   "config_settingKinds_menu": {
+      "message": "Popup Page"
+   },
+   "config_settingKinds_other": {
+      "message": "Other"
+   },
+   "config_settingKinds_system": {
+      "message": "System"
+   },
+   "config_settingKinds_tbilibili": {
+      "message": "Dynamic Page"
+   },
+   "config_thank": {
+      "message": "Support Us"
+   },
+   "config_version": {
+      "message": "version"
+   },
+   "config_websiteNotify": {
+      "message": "Our website has been moved to "
+   },
+   "cvImageDownload_downloadBtn": {
+      "message": "Download"
+   },
+   "cvImageDownload_name": {
+      "message": "Download Article Image"
+   },
+   "danmu_name": {
+      "message": "Danmu Sender Searcher"
+   },
+   "global_chromeStoreURL": {
+      "message": "https://chrome.google.com/webstore/detail/kpbnombpnpcffllnianjibmpadjolanh"
+   },
+   "global_extension_description": {
+      "message": "An third party extension for website that provides convenient features/shortcuts"
+   },
+   "global_extension_name": {
+      "message": "ACG Helper: Designed for Bilibili"
+   },
+   "global_extension_shortName": {
+      "message": "ACG Helper"
+   },
+   "global_githubURL": {
+      "message": "https://github.com/bilibili-helper/bilibili-helper-o"
+   },
+   "global_notifications": {
+      "message": "Notifications"
+   },
+   "global_versionType_official": {
+      "message": "stable"
+   },
+   "global_versionType_test": {
+      "message": "beta"
+   },
+   "global_watch": {
+      "message": "Watch"
+   },
+   "global_websiteURL": {
+      "message": "https://acghelper.com/"
+   },
+   "googleAnalytics_description": {
+      "message": "The use of anonymous statistics to help developers improve the program for a better experience"
+   },
+   "googleAnalytics_name": {
+      "message": "Google Analytics"
+   },
+   "liveChatMode_buttonOFF": {
+      "message": "Chat Mode OFF"
+   },
+   "liveChatMode_buttonON": {
+      "message": "Chat Mode ON"
+   },
+   "liveChatMode_description": {
+      "message": "在直播间开启网页全屏模式时以纵向排列的方式显示聊天內容，同時隐藏弹幕"
+   },
+   "liveChatMode_hideChatArea": {
+      "message": "Hide chat list"
+   },
+   "liveChatMode_name": {
+      "message": "Chat Mode"
+   },
+   "liveChatMode_showChatArea": {
+      "message": "Show chat list"
+   },
+   "livePiP_name": {
+      "message": "PiP"
+   },
+   "partitionFilter_description": {
+      "message": "在这里设置要屏蔽的分区，打开状态为屏蔽"
+   },
+   "partitionFilter_name": {
+      "message": "屏蔽主页分区"
+   },
+   "partitionFilter_options_anime": {
+      "message": "Anime"
+   },
+   "partitionFilter_options_cheese": {
+      "message": "课堂"
+   },
+   "partitionFilter_options_cinephile": {
+      "message": "影视"
+   },
+   "partitionFilter_options_dance": {
+      "message": "Dance"
+   },
+   "partitionFilter_options_digital": {
+      "message": "数码"
+   },
+   "partitionFilter_options_documentary": {
+      "message": "纪录片"
+   },
+   "partitionFilter_options_douga": {
+      "message": "Douga"
+   },
+   "partitionFilter_options_ent": {
+      "message": "娱乐"
+   },
+   "partitionFilter_options_fashion": {
+      "message": "时尚"
+   },
+   "partitionFilter_options_food": {
+      "message": "美食"
+   },
+   "partitionFilter_options_game": {
+      "message": "Game"
+   },
+   "partitionFilter_options_guochuang": {
+      "message": "国创"
+   },
+   "partitionFilter_options_information": {
+      "message": "资讯"
+   },
+   "partitionFilter_options_kichiku": {
+      "message": "鬼畜"
+   },
+   "partitionFilter_options_life": {
+      "message": "生活"
+   },
+   "partitionFilter_options_live": {
+      "message": "Live"
+   },
+   "partitionFilter_options_manga": {
+      "message": "漫画"
+   },
+   "partitionFilter_options_movie": {
+      "message": "电影"
+   },
+   "partitionFilter_options_music": {
+      "message": "Music"
+   },
+   "partitionFilter_options_read": {
+      "message": "专栏"
+   },
+   "partitionFilter_options_technology": {
+      "message": "知识"
+   },
+   "partitionFilter_options_teleplay": {
+      "message": "TV剧"
+   },
+   "popupMain_anime": {
+      "message": "已订阅"
+   },
+   "popupMain_animeTimeTable": {
+      "message": "时间表"
+   },
+   "popupMain_course": {
+      "message": "课程"
+   },
+   "popupMain_creator": {
+      "message": "创作中心"
+   },
+   "popupMain_dynamic": {
+      "message": "动态"
+   },
+   "popupMain_favlist": {
+      "message": "收藏夹"
+   },
+   "popupMain_history": {
+      "message": "历史"
+   },
+   "popupMain_home": {
+      "message": "综合"
+   },
+   "popupMain_live": {
+      "message": "直播"
+   },
+   "popupMain_manga": {
+      "message": "漫画"
+   },
+   "popupMain_realHome": {
+      "message": "首页"
+   },
+   "popupMain_recentlyPosted": {
+      "message": "最近投稿"
+   },
+   "popupMain_recommend": {
+      "message": "推荐"
+   },
+   "popupMain_specialAttention": {
+      "message": "特别关注"
+   },
+   "popupMain_watchLater": {
+      "message": "稍后再看"
+   },
+   "popupMenu_config_kindsOption_title": {
+      "message": "Quick entry settings"
+   },
+   "popupMenu_description": {
+      "message": "Switch items which you want to display in Popup Menu"
+   },
+   "popupMenu_kinds_anime": {
+      "message": "Anime"
+   },
+   "popupMenu_kinds_article": {
+      "message": "Article"
+   },
+   "popupMenu_kinds_audio": {
+      "message": "Audio"
+   },
+   "popupMenu_kinds_dynamic": {
+      "message": "Dynamic"
+   },
+   "popupMenu_kinds_favourite": {
+      "message": "Favourite"
+   },
+   "popupMenu_kinds_history": {
+      "message": "History"
+   },
+   "popupMenu_kinds_home": {
+      "message": "Video"
+   },
+   "popupMenu_kinds_live": {
+      "message": "Live"
+   },
+   "popupMenu_kinds_option": {
+      "message": "Option"
+   },
+   "popupMenu_name": {
+      "message": "Shortcut Menu"
+   },
+   "quickSearch_menuTitle": {
+      "message": "Search Bilibili for"
+   },
+   "quickSearch_name": {
+      "message": "Quick searching in Context Menu about bilibili"
+   },
+   "removeSelectionLimit_name": {
+      "message": "Remove selection limit"
+   },
+   "showDisabledVideo_name": {
+      "message": "Show disabled video information partially"
+   },
+   "silver2coin_name": {
+      "message": "银瓜子自动换硬币"
+   },
+   "silver2coin_notifications_description": {
+      "message": "兑换成功后将会弹出代表成功的推送通知"
+   },
+   "silver2coin_notifications_successfully": {
+      "message": "银瓜子换硬币成功！"
+   },
+   "status_downloads_check_error": {
+      "message": "check download error"
+   },
+   "subscriptionDynamic_videoNumberType_merge": {
+      "message": "有$count$条新的视频推送，点击查看",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "videoDownload_description": {
+      "message": "Support new type of video page, segment merging & downloading"
+   },
+   "videoDownload_name": {
+      "message": "Video download"
+   },
+   "videoDownload_showFLVSegment_description": {
+      "message": "If the video source is composed of multiple segments, show a download button for each segment."
+   },
+   "videoDownload_showFLVSegment_name": {
+      "message": "Show FLV segment"
+   },
+   "videoHideDanmu_name": {
+      "message": "Hide danmu by default"
+   },
+   "videoWiden_name": {
+      "message": "Wide-screen mode"
+   },
+   "videoWiden_options_default": {
+      "message": "Default"
+   },
+   "videoWiden_options_normalWiden": {
+      "message": "Wide Screen"
+   },
+   "videoWiden_options_webFullscreen": {
+      "message": "Web Full Screen"
+   },
+   "videoWiden_subPage_title": {
+      "message": "Enable wide-screen mode by default"
+   }
+}
