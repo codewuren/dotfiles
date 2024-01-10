@@ -1,6 +1,3 @@
-2024/01/10-01:38:52.567 493 Reusing MANIFEST /home/wuren/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/01/10-01:38:52.570 493 Recovering log #6
-2024/01/10-01:38:52.571 493 Reusing old log /home/wuren/.config/google-chrome/Default/Sync Data/LevelDB/000006.log 
-2024/01/10-01:39:54.261 48e Level-0 table #10: started
-2024/01/10-01:39:54.272 48e Level-0 table #10: 125141 bytes OK
-2024/01/10-01:39:54.275 48e Delete type=0 #6
+2024/01/10-01:57:52.957 4f40 Reusing MANIFEST /home/wuren/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2024/01/10-01:57:52.957 4f40 Recovering log #9
+2024/01/10-01:57:52.957 4f40 Reusing old log /home/wuren/.config/google-chrome/Default/Sync Data/LevelDB/000009.log 
