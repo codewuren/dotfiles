@@ -1,6 +1,0 @@
-2024/01/10-01:15:49.310 d58 Creating DB /home/wuren/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb since it was missing.
-2024/01/10-01:15:49.314 d58 Reusing MANIFEST /home/wuren/.config/google-chrome/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/01/10-01:15:49.325 d67 Level-0 table #5: started
-2024/01/10-01:15:49.327 d67 Level-0 table #5: 1319 bytes OK
-2024/01/10-01:15:49.330 d67 Delete type=0 #3
-2024/01/10-01:15:49.330 d58 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
