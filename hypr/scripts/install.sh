@@ -11,10 +11,7 @@ fi
 
 # Install Hyprland and some other stuffs
 echo "Start install Hyprland and some other stuffs."
-yay -S wayland wlroots-highdpi-git qt5-wayland qt6-wayland glfw-wayland hyprland waybar wofi dunst nvidia-dkms linux-headers nvidia-utils pulseaudio networkmanager network-manager-applet screenkey pavucontrol ags neovim emacs google-chrome
-
-# Clone my scripts repository
-git clone https://gitee.com/codewuren/scripts ~/scripts
+yay -S wofi dunst nvidia-dkms linux-headers nvidia-utils pulseaudio networkmanager network-manager-applet screenkey pavucontrol 
 
 # Disable Nouveau
 sh ~/scripts/disable_nouveau.sh
