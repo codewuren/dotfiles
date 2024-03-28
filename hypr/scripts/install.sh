@@ -11,7 +11,7 @@ fi
 
 # Install Hyprland and some other stuffs
 echo "Start install Hyprland and some other stuffs."
-yay -S wofi dunst nvidia-dkms linux-headers nvidia-utils pulseaudio networkmanager network-manager-applet screenkey pavucontrol 
+yay -S hyprland wofi dunst nvidia-dkms linux-headers nvidia-utils pulseaudio networkmanager network-manager-applet screenkey pavucontrol cliphist 
 
 # Disable Nouveau
 sh ~/scripts/disable_nouveau.sh
