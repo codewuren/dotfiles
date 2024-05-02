@@ -7,7 +7,7 @@
     // Choose the order of the modules
     "modules-left": ["hyprland/workspaces", "backlight", "keyboard-state"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["tray", "hyprland/language", "cpu", "memory", "temperature", "battery", "pulseaudio", "network", "clock"],
+    "modules-right": ["tray", "cpu", "memory", "temperature", "battery", "pulseaudio", "network", "clock"],
     // Modules configuration
      "hyprland/workspaces": {
          "disable-scroll": true,
@@ -20,7 +20,7 @@
     },
     "keyboard-state": {
         "numlock": false,
-        "capslock": false,
+        "capslock": true,
         "format": "{name} {icon}",
         "format-icons": {
             "locked": " ",
@@ -28,15 +28,11 @@
         }
     },
     "hyprland/window": {
-        "max-length": 50,
+        "max-length": 100,
         "separate-outputs": true
     },
-    "hyprland/language": {
-        "format": "{}",
-        "max-length": 18
-    },
     "tray": {
-        "icon-size": 21,
+        "icon-size": 20,
         "spacing": 5
     },
     "clock": {
@@ -71,7 +67,7 @@
             "critical": 15
         },
         "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% 🗲 ",
+        "format-charging": "{capacity}%  ",
         "format-plugged": "{capacity}%  ",
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
